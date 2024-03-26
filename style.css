@@ -1,0 +1,211 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(195, 111, 219);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    background-color: rgb(195, 111, 219);
+}
+
+nav .left{
+    margin-left: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+main hr{
+    border:0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+nav ul li a:hover {
+   color:lavender;
+   font-size:1.1rem ;
+}
+
+/* first section */
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2rem;
+
+}
+
+.leftSection .buttons{
+    padding: 50px 0;
+}
+
+.leftSection .btn{
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 100px;
+    padding: 13px 35px;
+
+}
+
+.leftSection .btn:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+.rightSection img {
+    width: 120%;
+
+}
+
+.leftSection .sarathi {
+    color: rgb(62, 11, 110);
+    font-weight: 600;
+    
+}
+
+#element{
+    color: white;
+}
+
+
+/* Second section */
+.secondSection{
+    max-width: 80dvw;
+    margin: auto;
+    height: 80vh;
+}
+
+
+.secondSection h3{
+    margin-bottom: 60px;
+    color: blueviolet;
+}
+
+.secondSection .box{
+    width: 80vw;
+    height: 2px;
+    display: flex;
+
+}
+
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+margin: 0 150px;
+}
+
+.image-top{
+    width: 223px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+    
+}
+
+
+.vertical-text-btn .btn{
+position: relative;
+top:75px;
+width: 150px;
+font-size: 20px;
+color: blueviolet;
+border: 2px solid blueviolet;
+border-radius: 6px;
+background-color: white;
+cursor: pointer;
+}
+
+
+.vertical-text-btn .btn1{
+    position: relative;
+    top:75px;
+    width: 150px;
+    font-size: 20px;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    }
+    
+
+.vertical-desc{
+position: relative;
+top: 86px;
+width: 150px;
+color: white;
+margin-bottom: 50px;
+}
+
+footer{
+    background-color: rgb(1, 1, 20);
+
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+
+.footer>div{
+    width: 223px;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px;
+}
+
+@media(max-width:400px) {
+    
+}
