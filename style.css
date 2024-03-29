@@ -21,7 +21,7 @@ nav {
 }
 
 nav .left{
-    margin-left: 30px;
+    margin-left: 80px;
 }
 
 nav ul {
@@ -59,10 +59,6 @@ main hr{
     margin: 60px 84px;
 }
 
-nav ul li a:hover {
-   color:lavender;
-   font-size:1.1rem ;
-}
 
 /* first section */
 .left {
@@ -163,7 +159,6 @@ margin: 0 150px;
     
 }
 
-
 .vertical-text-btn .btn{
 position: relative;
 top:75px;
@@ -202,23 +197,26 @@ margin-bottom: 50px;
 
 /* footer */
 footer{
-    background-color: rgb(32, 7, 56);
+    width: 100vh;
 }
 .footer{
+
     display: flex;
     padding: 23px 122px;
     justify-content: space-evenly;
 }
+
 .footer ul{
     list-style: none;
+    margin-left: 50px;
 }
 
-
-
 footer .footer-rights{
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: rgb(250, 246, 246);
-    padding: 12px;
+    margin-right: -100px;
 }
 
 @media(max-width:400px) {
@@ -236,7 +234,8 @@ footer .footer-rights{
             justify-content: flex-start;
             align-items: flex-start;
         }
-        }
+     
+    }
     nav ul li a {
         font-size: 1.5rem;
         font-weight: 600;
