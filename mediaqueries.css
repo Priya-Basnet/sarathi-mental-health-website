@@ -1,0 +1,126 @@
+
+
+    @media screen and (max-width:1200px){
+        #desktop-nav{
+            /* display: none; */
+        }
+        .hamburger-icon span{
+           
+            /* display: initial; */
+        }
+        #hamburger-nav{
+    display: flex;
+        }}
+
+        @media screen and (max-width:750px){
+            
+          
+            .firstSection{
+                display: flex;
+                flex-direction: column;
+                margin-left: 10px;
+                margin-right: -10px;
+                margin-top:100px;
+                margin-left: 4rem;
+            }
+
+            .rightSection img{
+                height: 400px;
+                width: 400px;
+            margin-right: -9rem;
+            }
+            .leftSection{
+                margin-top: -20rem;
+                margin-left: 8rem;
+            }
+            .leftSection .sarathi{
+                font-size: 4rem;
+            }
+            .leftSection #element{
+                font-size: 2rem;
+            }
+            footer{
+              display: none;
+            }
+
+            /* About */
+           .firstSection-about{
+            display: flex;
+            flex-direction: column;
+            gap: 10rem;
+           }
+           .firstSection-about .leftSection p {
+            white-space: nowrap;
+            margin-left: -2rem;
+          
+           }
+           .firstSection-about .leftSection{
+           margin-left: -8rem;
+           }
+           /* services */
+           .secondSection-services{
+            margin-left: 2rem;
+            margin-top: 7rem;
+            }
+            .secondSection-services h3{
+                font-size: 3rem;
+            }
+           .secondSection-services .box{
+            display: flex;
+            flex-direction: column;
+            gap: 20rem;
+            justify-content: space-evenly;
+            align-items: center;
+          
+           }
+           .vertical .feature{
+            margin-top: -6rem;
+           }
+
+        
+          .vertical-desc{
+            font-size: 1.5rem;
+            font-weight: 600;
+            white-space: nowrap;
+          }
+
+/* contact */
+        .contact .firstSection .leftSection h3{
+            margin-top: 20rem;
+            white-space: nowrap;
+         }
+         .contact .firstSection .rightSection{
+            margin-top: -20rem;
+         }
+        .contact .secondSection{
+            gap: 4rem;
+            margin-top: 10px;
+            width: 100%;
+          }
+
+          
+          .form{
+            height: 100%;
+            display: none;
+          }
+          .get-in{
+            margin-left: 8rem;
+            gap: 4rem;
+          }
+          .get-in p{
+            font-size: 2rem;
+            font-weight: 600;
+          }
+          .get-in h3{
+            font-size:2rem ;
+          }
+          .get-in h2{
+            font-size: 2rem;
+          }
+           }
+
+           @media screen and (max-width:940px){
+            contact .firstSection .leftSection h3{
+                white-space: nowrap;
+            }
+           }
